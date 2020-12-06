@@ -17,7 +17,7 @@ module.exports = {
         })
 
         let embed = new MessageEmbed()
-        .setAuthor("Commands of "+client.user.username, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+        .setAuthor("Commands of "+client.user.username, "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/wrench%20gif3.gif")
         .setColor("BLUE")
         .setDescription(allcmds)
         .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`)
@@ -30,7 +30,7 @@ module.exports = {
             if(!command)return message.channel.send("Unknown Command")
             let commandinfo = new MessageEmbed()
             .setTitle("Command: "+command.info.name+" info")
-            .setColor("YELLOW")
+            .setColor("GREY")
             .setDescription(`
 Name: ${command.info.name}
 Description: ${command.info.description}
