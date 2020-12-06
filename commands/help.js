@@ -20,7 +20,7 @@ module.exports = {
         .setAuthor("Commands of "+client.user.username, "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/wrench%20gif3.gif")
         .setColor("GREY")
         .setDescription(allcmds)
-        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by ItzCutePikachu#2006`)
+        .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Ξ V Ξ Music`)
 
         if(!args[0])return message.channel.send(embed)
         else {
