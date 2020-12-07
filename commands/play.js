@@ -73,7 +73,7 @@ module.exports = {
     if (serverQueue) {
       serverQueue.songs.push(song);
       let thing = new MessageEmbed()
-      .setAuthor("Song has been added to queue", "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/wrench%20gif3.gif")
+      .setAuthor("Song has been added to queue", "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/miniGif_20201207110142.gif")
       .setThumbnail(song.img)
       .setColor("GREY")
       .addField("Name", song.title, true)
@@ -138,7 +138,7 @@ stream.on('error', function(er)  {
 
       dispatcher.setVolumeLogarithmic(queue.volume / 100);
       let thing = new MessageEmbed()
-      .setAuthor("Started Playing Music!", "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/wrench%20gif3.gif")
+      .setAuthor("Started Playing Music!", "https://github.com/tegaryudha11/Discord-MusicBot/blob/master/assets/miniGif_20201207110142.gif")
       .setThumbnail(song.img)
       .setColor("GREY")
       .addField("Name", song.title, true)
